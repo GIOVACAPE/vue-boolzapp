@@ -127,7 +127,27 @@ const app = Vue.createApp({
       },
       isVisible(person) {
         return person.name.toLowerCase().includes(this.serchChat.toLowerCase());
-      }
+      },
+      
+      // PER MILESTONE 4 ----------------------
+
+      // nameSearch() {
+
+      //   for (  i = 0; i < this.contacts.length ; i++) {
+      //     let position = this.contacts[i].name.toLowerCase();
+      //     let searchResult = position.search(this.searchChat);
+
+      //     if (searchResult != 0) {
+      //       this.contacts[i].visible = false
+      //     }
+      //     else{
+      //       this.contacts[i].visible = true
+      //     }
+      //   }
+      //   this.searchChat = ''
+
+      // },
+
     }
 });
 

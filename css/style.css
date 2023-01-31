@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* mega sfondo */
+
+.black-hole {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#009688 20%, #DBDBD3 20%, #DBDBD3);
+    position: absolute;
+}
+
+/* app */
+
+.try-small {
+    height: 90vh;
+    padding: 0;
+    
+}
+
+.try-big {
+    padding: 0;
+    height: 90vh;
+    
+    border-left: solid 1px rgb(209, 199, 199);
+}
+
+.floater {
+    width: 85%;
+    height: 90vh;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+}
+
+/* sidebar */
+
+/* header */
+
+.side-nav-header {
+    height: 12%;
+    padding: 1rem;
+    background-color: #EAEAEA;
+}
+
+.pictures {
+    max-width: 15%;
+}
+
+.profile-pictures {
+    max-width: 100%;
+    border-radius: 30px;
+}
+
+/* main */
+
+/* notifiche */
+
+.side-nav-not {
+    height: 12%;
+    padding: 1rem;
+    background-color: #8EDAFC;
+}
+
+.custom-bell {
+    color: #8EDAFC;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* ricerca */
+
+.side-nav-res {
+    height: 8%;
+    background-color: #FAFAFA;
+}   
+
+.custom-measures {
+    padding-left: 15px;
+    width: 95%;
+    border-radius: 0px;
+}
+
+/* chat */
+
+.side-nav-chat {
+    height: 68%;
+    background-color: #FFFFFF;
+    padding: 15px 20px 10px 20px;
+    overflow-y: auto;
+}  
+
+/* main corp */
+
+.current-chat {
+    height: 12%;
+    padding: 10px 15px 10px 15px;
+    position: sticky;
+    background-color: #EAEAEA;
+}
+
+.pictures-chat {
+    max-width: 12%;
+}
+
+.profile-pictures-chat {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* chat */
+
+.chat {
+    height: 78%;
+    background-image: url(../img/mine.jpg);
+    overflow-y: auto;
+    padding: 40px 70px;   
+    
+}
+
+.my-message {
+    background-color: #D5F9BA;
+    height: 55px;
+    cursor: grab;
+    border-radius: 10px;
+}
+
+.contact-message {
+    background-color: #fff;
+    height: 55px;
+    border-radius: 10px;
+    cursor: grab;
+}
+
+.date-massage {
+    color: rgb(153, 146, 146);
+    display: flex;
+    justify-content: end;
+    font-size: 10px;
+}
+
+/* type zone */
+
+.type-zone {
+    height: 10%;
+    background-color: #EAEAEA;
+    position: sticky;
+}
+
+.footer-measures {
+    width: 70%;
+}
